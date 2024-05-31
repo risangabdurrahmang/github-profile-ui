@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FONTAWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Github</title>
+  </head>
+  <body>
+    <!--==================== NAVBAR ====================-->
+    <header>
+      <div class="head-nav">
+        <div class="logo">
+          <i id="sideMenu" class="fa-solid fa-bars"></i>
+          <i class="fa-brands fa-github"></i>
+          <div class="logo-name"><span>risangabdurrahmang</span></div>
+        </div>
+        <div class="form-input">
+          <input type="search" placeholder="Search..." />
+          <button class="search-btn" type="submit"><i class="fa-solid fa-terminal"></i></button>
+        </div>
+        <nav class="navbar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span class="right-border"></span>
+          <div class="group-one">
+            <div class="add">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="sub-one">
+              <i class="fa-regular fa-circle-dot"></i>
+              <i class="fa-solid fa-code-pull-request"></i>
+            </div>
+          </div>
+          <div class="group-two">
+            <i class="fa-solid fa-envelope-open-text"></i>
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+        </nav>
+      </div>
+      <div class="main-tab">
+        <div class="tab">
+          <a href="#" class="tab-item">
+            <button class="tablinks">
+              <i class="fa-solid fa-book-open"></i>
+              <span>Overview</span>
+            </button>
+            <span class="active-border"></span>
+          </a>
+          <a href="#" class="tab-item">
+            <button class="tablinks">
+              <i class="fa-solid fa-book-bookmark"></i>
+              <span>Repositories</span>
+            </button>
+            <span class="active-border"></span>
+          </a>
+          <a href="#" class="tab-item">
+            <button class="tablinks">
+              <i class="fa-regular fa-window-maximize"></i>
+              <span>Projects</span>
+            </button>
+            <span class="active-border"></span>
+          </a>
+          <a href="#" class="tab-item" id="pack-item">
+            <button class="tablinks">
+              <i class="fa-solid fa-cube"></i>
+              <span>Packages</span>
+            </button>
+            <span class="active-border"></span>
+          </a>
+          <a href="#" class="tab-item" id="stars-item">
+            <button class="tablinks">
+              <i class="fa-regular fa-star"></i>
+              <span>Stars</span>
+            </button>
+            <span class="active-border"></span>
+          </a>
+        </div>
+        <button class="more-tab">...</button>
+      </div>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main>
+      <!--==================== SIDEBAR ====================-->
+      <div class="sidebar">
+        <div class="head-sidebar">
+          <i class="fa-brands fa-github"></i>
+          <i id="closeMenu" class="fa-regular fa-rectangle-xmark"></i>
+        </div>
+        <div class="sidebar-menu">
+          <button class="sidebar-item">
+            <i class="fa-solid fa-house"></i>
+            <span class="sidebar-name">Home</span>
+          </button>
+          <button class="sidebar-item">
+            <i class="fa-regular fa-circle-dot"></i>
+            <span class="sidebar-name">Issues</span>
+          </button>
+          <button class="sidebar-item">
+            <i class="fa-solid fa-code-pull-request"></i>
+            <span class="sidebar-name">Pull requests</span>
+          </button>
+          <button class="sidebar-item">
+            <i class="fa-regular fa-window-maximize"></i>
+            <span class="sidebar-name">Projects</span>
+          </button>
+          <button class="sidebar-item">
+            <i class="fa-regular fa-comments"></i>
+            <span class="sidebar-name">Discussions</span>
+          </button>
+          <button class="sidebar-item">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span class="sidebar-name">Codespaces</span>
+          </button>
+          <span class="border-sidebar"></span>
+          <button class="sidebar-item">
+            <i class="fa-brands fa-wpexplorer"></i>
+            <span class="sidebar-name">Explore</span>
+          </button>
+          <button class="sidebar-item">
+            <i class="fa-solid fa-gift"></i>
+            <span class="sidebar-name">Marketplace</span>
+          </button>
+          <span class="border-sidebar"></span>
+        </div>
+        <div class="sidebar-repo">
+          <div class="side-repo-head">
+            <p>Repositories</p>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="side-repo-list">
+            <button class="side-repo-item">
+              <i class="fa-solid fa-circle-user"></i>
+              <span class="sidebar-name">risangabdurrahmang/website.....</span>
+            </button>
+            <button class="side-repo-item">
+              <i class="fa-solid fa-circle-user"></i>
+              <span class="sidebar-name">risangabdurrahmang/website.....</span>
+            </button>
+            <button class="side-repo-item">
+              <i class="fa-solid fa-circle-user"></i>
+              <span class="sidebar-name">risangabdurrahmang/website.....</span>
+            </button>
+            <button class="side-repo-item">
+              <i class="fa-solid fa-circle-user"></i>
+              <span class="sidebar-name">risangabdurrahmang/website.....</span>
+            </button>
+          </div>
+          <button class="show-more">Show more</button>
+        </div>
+      </div>
+      <!--==================== CONTENT ====================-->
+      <div class="content">
+        <aside class="left-content">
+          <div class="head-profile">
+            <div class="profiles">
+              <img src="assets/img/profil.png" alt="Risang Abdurrahman Gustiwa" />
+              <div class="desc-profile">
+                <h2 class="profile-name">Risang Abdurrahman Gustiwa</h2>
+                <p class="profile-username">risangabdurrahmang he/him</p>
+              </div>
+            </div>
+            <div class="set-status">
+              <p>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>Set Status</span>
+              </p>
+              <h3>Web Developer Enthusiast</h3>
+              <button>Edit Profile</button>
+            </div>
+          </div>
+          <div class="foot-profile">
+            <div class="acc-list">
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+                <span>risangabdurrahmang</span>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-square-facebook"></i>
+                <span>risangabdurrahmang.gustiwa</span>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>in/risang-abdurrahman-gustiwa-a3132a286</span>
+              </a>
+            </div>
+            <div class="follow">
+              <i class="fa-solid fa-user-group"></i>
+              <a href="">
+                0
+                <span>followers</span>
+              </a>
+              <a href="">
+                0
+                <span>following</span>
+              </a>
+            </div>
+          </div>
+        </aside>
+        <article class="right-content">
+          <div class="head-text">
+            <h4>Popular repositories</h4>
+            <h5>Customize your pins</h5>
+          </div>
+          <div class="repo-cards"></div>
+        </article>
+      </div>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer>
+      <div class="footer-menu">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Status</a>
+        <a href="#">Docs</a>
+        <a href="#">Contact</a>
+        <a href="#">Manage cookies</a>
+        <a href="#">Do not share my personal information</a>
+      </div>
+      <div class="footer-git">
+        <i class="fa-brands fa-github"></i>
+        &copy;
+        <p>2024 Github, Inc.</p>
+      </div>
+    </footer>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
